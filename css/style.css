@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Inter';
+}
+
+.header {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../images/christopher-campbell-kFCdfLbu6zA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.btn-header {
+    width: 15%;
+    margin-right: 2%;
+}
+
+.header:before {
+    content: '';
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+
+.bg-ligh {
+    position: fixed;
+    z-index: 20;
+    width: 100%;
+
+}
+
+@media(min-width: 768px) {
+    .bg-ligh {
+        background-color: transparent !important;
+    }
+}
+
+.navg {
+    background: transparent;
+}
+
+.navg a {
+    color: grey !important;
+    font-family: 'Inter';
+    font-size: 23px;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.navg a:hover {
+    color: black;
+
+}
+
+.text-header {
+    min-height: 100vh;
+    color: white;
+    font-family: 'Inter';
+}
+
+.text-header h2 {
+    font-family: 'Inter';
+    letter-spacing: 5px;
+    font-size: 4.2em;
+    margin: 0 0 0 0;
+}
+
+.text-header p {
+    font-size: 1em;
+    margin-left: 2px;
+}
+
+.header__button {
+    margin-left: 4%;
+    margin-bottom: 2%;
+
+}
+
+.btn-yo {
+    font-size: 1.5em;
+    padding: 5px 12px;
+    color: black;
+    background-color: rgb(194, 194, 194);
+}
+
+.btn-yo:hover {
+    color: white;
+    background-color: grey;
+}
+
+.row {
+    margin: 0;
+
+}
+
+#row-about {
+    padding-top: 40px;
+    margin: 0;
+    background-color: rgb(218, 218, 218);
+}
+
+#row-learn {
+    padding-top: 40px;
+    margin: 0;
+    background-color: rgb(218, 218, 218);
+    width: 100%;
+}
+
+#row-imc {
+    padding-top: 40px;
+    margin: 0;
+}
+
+.card {
+    margin-top: 50px;
+}
+
+#alert-imc {
+    margin-top: 50px;
+}
+
+#row-about img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+
+}
+
+#row-calculator img {
+    border-radius: 50%;
+}
+
+#row-calculator {
+    margin: auto;
+    padding-bottom: 200px;
+
+}
+
+.container-calculator__info {
+    margin-bottom: 2em;
+}
+
+.login_form {
+    width: 30%;
+    margin: 10px;
+}
+
+footer {
+    width: 100%;
+}
+
+.container__footer {
+    width: 100%;
+}
+
+.table {
+    padding: 100px;
+    width: 70%;
+    margin: auto;
+}
+
+.transition {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+
+}

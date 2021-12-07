@@ -15,3 +15,5 @@ Also there is a list where you can add foods and calories. You will receive the 
 5- Footer
 
 ## Hope you enjoy it :)
+
+It is also deployed here =>   https://laubisaccia.github.io/HealthyLife/
